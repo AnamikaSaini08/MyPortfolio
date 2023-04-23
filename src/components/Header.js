@@ -3,9 +3,9 @@ import {Link} from 'react-router-dom';
 
 const Header = () => {
   return (
-    <div className='flex justify-between pt-10 h-30'>
+    <div className='flex justify-between pt-10 h-30 font-serif text-gray-700'>
     <div>
-        <h1 className='agustina-regular'> {'<'} Anamika Saini {'/>'} </h1>
+        <h1> {'<'} Anamika Saini {'/>'} </h1>
     </div>
     <div className='pb-5'>
         <ul className='flex '>

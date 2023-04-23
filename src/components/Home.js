@@ -6,7 +6,6 @@ import MyWork from './MyWork';
 const Home = () => {
   return (
     <div className=''>
-      <Header/>
       <About/>
       <MyWork/>
     </div>
