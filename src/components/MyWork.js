@@ -15,20 +15,28 @@ const MyWork = () => {
         />
         <div className="ml-52">
           <h1 className="text-4xl text-slate-900 ">Web Development</h1>
-          <div className="flex mt-8 mb-16 ml-28">
-            <img className="h-16 w-16 mr-3 rounded-xl"
-            src="data:image/png;base64,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" />
-            <img className="h-16 w-16 mx-3 rounded-xl"
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmMOTO7_9zw64R5063uqA0WPYPLkbLlA5mqV7mWwJcTw&usqp=CAU&ec=48665701" />
-            <img className="h-16 w-16 mx-3 rounded-xl"
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdhlEC39ClkCm9GwGFgFlcgHkX-2X7X98u3tilgEbT2Q&usqp=CAU&ec=48665701" />
-            <img className="h-16 w-16 mx-3 rounded-xl"
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT66S8R5hDm_tPpl8bt0vDe-tEWRlPTX8gTTxJYVO3Wpg&usqp=CAU&ec=48665701" />
+          <div className="flex mt-8 mb-16 sm:ml-28">
+            <img
+              className="max-h-16 max-w-16 mr-3 rounded-xl"
+              src="data:image/png;base64,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"
+            />
+            <img
+              className="max-h-16 max-w-8 mx-3 rounded-xl"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmMOTO7_9zw64R5063uqA0WPYPLkbLlA5mqV7mWwJcTw&usqp=CAU&ec=48665701"
+            />
+            <img
+              className="max-h-16 max-w-8 mx-3 rounded-xl"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdhlEC39ClkCm9GwGFgFlcgHkX-2X7X98u3tilgEbT2Q&usqp=CAU&ec=48665701"
+            />
+            <img
+              className="max-h-16 max-w-8 mx-3 rounded-xl"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT66S8R5hDm_tPpl8bt0vDe-tEWRlPTX8gTTxJYVO3Wpg&usqp=CAU&ec=48665701"
+            />
           </div>
           <p className="text-lg text-gray-700 my-4 font-sans">
             Implementing front-end frameworks and libraries such as React or
-            Angular to streamline development and enhance the
-            performance and usability of web applications.
+            Angular to streamline development and enhance the performance and
+            usability of web applications.
           </p>
           <p className="text-lg text-gray-700 font-sans my-4">
             Creating and managing databases, server-side logic, and APIs using
@@ -51,24 +59,33 @@ const MyWork = () => {
         <div className="ml-52">
           <h1 className="text-4xl text-slate-900 ">Competative Programming</h1>
           <div className="flex mt-8 mb-16 ml-28">
-            <img className="h-16 w-16 mr-3 rounded-xl"
-            src="data:image/png;base64,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" />
-            <img className="h-16 w-16 mx-3 rounded-xl"
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj2A2tQ8W8OuTrirbMKtM_e4UXTeoqDtzUJ8pNUnnHAg&s" />
-            <img className="h-16 w-16 mx-3 rounded-xl"
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT66S8R5hDm_tPpl8bt0vDe-tEWRlPTX8gTTxJYVO3Wpg&usqp=CAU&ec=48665701" />
+            <img
+              className="h-16 w-16 mr-3 rounded-xl"
+              src="data:image/png;base64,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"
+            />
+            <img
+              className="h-16 w-16 mx-3 rounded-xl"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj2A2tQ8W8OuTrirbMKtM_e4UXTeoqDtzUJ8pNUnnHAg&s"
+            />
+            <img
+              className="h-16 w-16 mx-3 rounded-xl"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT66S8R5hDm_tPpl8bt0vDe-tEWRlPTX8gTTxJYVO3Wpg&usqp=CAU&ec=48665701"
+            />
           </div>
           <p className="text-lg text-gray-700 my-4 font-sans">
-          Strong problem-solving skills demonstrated through participation in competitive programming contests, 
-          where I analyzed complex problems and developed efficient algorithms and data structures to achieve optimal
-          solutions.
+            Strong problem-solving skills demonstrated through participation in
+            competitive programming contests, where I analyzed complex problems
+            and developed efficient algorithms and data structures to achieve
+            optimal solutions.
           </p>
           <p className="text-lg text-gray-700 font-sans my-4">
-          Secured Global Rank 721 in national-level competitive programming 
-          contests at codechef, showcasing my ability to compete at a high level and consistently deliver competitive solutions.
+            Secured Global Rank 721 in national-level competitive programming
+            contests at codechef, showcasing my ability to compete at a high
+            level and consistently deliver competitive solutions.
           </p>
           <p className="text-lg text-gray-700 font-sans my-4">
-          Proficient in programming languages such as C,C++,Java and Javascript.
+            Proficient in programming languages such as C,C++,Java and
+            Javascript.
           </p>
         </div>
       </div>

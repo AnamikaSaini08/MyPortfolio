@@ -6,7 +6,7 @@ const Projects = () => {
     <div>
       <div className="flex my-32">
           <img
-            className="rounded-md shadow-lg"
+            className="rounded-md shadow-lg max-w-md"
             src="https://media.istockphoto.com/id/950986656/photo/business-finance-accounting-contract-advisor-investment-consulting-marketing-plan-for-the.jpg?s=612x612&w=0&k=20&c=U-y6cADCby4QwENFptPrVcK_MplesqZmnDxUMMkJZvM="
           />
 

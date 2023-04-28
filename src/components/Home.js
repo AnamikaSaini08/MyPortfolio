@@ -5,7 +5,7 @@ import MyWork from './MyWork';
 
 const Home = () => {
   return (
-    <div className=''>
+    <div className='max-w-full'>
       <About/>
       <MyWork/>
     </div>

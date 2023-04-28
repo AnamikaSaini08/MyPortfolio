@@ -4,9 +4,9 @@ import CertificateCard from "./CertificateCard";
 const Certificates = () => {
   return (
     <div className="my-36">
-     <h1 className="text-4xl text-bold text-center text-slate-800">Certifcations</h1>
+     <h1 className="text-4xl text-bold text-center text-slate-800">Certifications</h1>
 
-     <div className="flex flex-wrap mt-10">
+     <div className="flex mt-10 flex-wrap ml-40 sm:ml-0 ">
      <CertificateCard
         title="Problem Solving Basic"
         platform="Hackerrank"

@@ -13,11 +13,11 @@ const Education = () => {
           />
         </div>
 
-        <div>
+        <div className="w-3/2">
           <h1 className="text-center text-5xl text-bold text-slate-800 font-sans">
             Education
           </h1>
-          <p className="my-10 text-bold text-slate-800 text-3xl">
+          <p className="my-10 text-bold text-slate-800 text-3xl text-center">
             Basic Qualification and Certifcations
           </p>
           <div className="flex mt-10 ml-28">
