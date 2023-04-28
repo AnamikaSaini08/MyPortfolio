@@ -44,7 +44,7 @@ function App() {
 
 
   return (
-    <div className='bg-gray-200 px-20'>
+    <div className='bg-gray-200 px-20 max-w-full'>
      <RouterProvider router = {appRouter}/>
     </div>
   );

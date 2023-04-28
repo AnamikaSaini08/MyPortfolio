@@ -3,7 +3,7 @@ import React from "react";
 const MyWork = () => {
   return (
     <div>
-      <h1 className="text-5xl text-bold text-center text-slate-900 my-20">
+      <h1 className="text-5xl text-bold text-center text-slate-900 my-20 ">
         {" "}
         What I Do?
       </h1>
