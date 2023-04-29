@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
+import Accordian from "./Accordian";
 
 const Experience = () => {
+  const [isVisible, setIsVisible] = useState(false);
   return (
     <div>
       <div className="flex my-32">
@@ -23,6 +25,89 @@ const Experience = () => {
             Developer.
           </p>
         </div>
+      </div>
+      <div>
+        <button
+          className="p-4 w-full bg-white text-left text-xl"
+          onClick={() => {
+            if(isVisible === "Intern"){
+            setIsVisible("dummy");
+          }else
+            setIsVisible("Intern");
+          }}
+        >
+          Internships
+          <p className="float-right">+</p>
+        </button>
+        {isVisible==="Intern" && <div className="bg-white py-2">
+          <Accordian
+            role="Software Developer Internship - Full Stack"
+            company="Hexadecimal Software Pvt Ltd."
+            desc="• Worked as a bug solver on a React-based project, tracking and
+            resolving issues through Jira tickets. As well as Designed and developed new page components, ensuring that the
+            design and user experience align with the overall project goals and
+            client expectations."
+            time="April 2022 - Present"
+            location="Noida, Currently Remote"
+          />
+          <Accordian
+            role="Software Developer Internship - Full Stack"
+            company="Hexadecimal Software Pvt Ltd."
+            desc="• Worked as a bug solver on a React-based project, tracking and
+            resolving issues through Jira tickets. As well as Designed and developed new page components, ensuring that the
+            design and user experience align with the overall project goals and
+            client expectations."
+            time="April 2022 - Present"
+            location="Noida, Currently Remote"
+          />
+        </div>}
+        <hr />
+
+        <button className="p-4 w-full bg-white text-left text-xl"
+        onClick={()=>{
+          if(isVisible === "Volunteer"){
+            setIsVisible("dummy");
+          }else
+          setIsVisible("Volunteer");
+         }}>
+          Volunteerships
+          <p className="float-right">+</p>
+        </button>
+        {isVisible === "Volunteer" && <div className="bg-white py-2">
+        <Accordian
+            role="Software Developer Internship - Full Stack"
+            company="Hexadecimal Software Pvt Ltd."
+            desc="• Worked as a bug solver on a React-based project, tracking and
+            resolving issues through Jira tickets. As well as Designed and developed new page components, ensuring that the
+            design and user experience align with the overall project goals and
+            client expectations."
+            time="April 2022 - Present"
+            location="Noida, Currently Remote"
+          />
+        </div>}
+        <hr />
+        <button className="p-4 w-full bg-white text-left text-xl"
+        onClick={()=>{
+          if(isVisible === "Achievements"){
+            setIsVisible("dummy");
+          }else
+          setIsVisible("Achievements");
+         }}>
+          Achievements
+          <p className="float-right">+</p>
+        </button>
+        {isVisible === "Achievements" && <div className="bg-white py-2">
+        <Accordian
+            role="Software Developer Internship - Full Stack"
+            company="Hexadecimal Software Pvt Ltd."
+            desc="• Worked as a bug solver on a React-based project, tracking and
+            resolving issues through Jira tickets. As well as Designed and developed new page components, ensuring that the
+            design and user experience align with the overall project goals and
+            client expectations."
+            time="April 2022 - Present"
+            location="Noida, Currently Remote"
+          />
+        </div>}
       </div>
     </div>
   );

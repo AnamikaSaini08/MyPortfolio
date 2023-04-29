@@ -87,7 +87,7 @@ const About = () => {
             </div>
           </div>
         </div>
-      <button className=" transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 px-5 py-3 bg-black text-white my-12 ml-1 rounded-lg font-sans text-xl">
+      <button className=" hover:bg-slate-200 hover:text-gray-600 ease-in duration-200 hover:border-2 hover:border-gray-600 px-5 py-3 bg-black text-white my-12 ml-1 rounded-lg font-sans text-xl">
         {buttonText}
       </button>
       </div>
