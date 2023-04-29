@@ -1,15 +1,17 @@
-import React from 'react'
+import React from 'react';
+import Roll from 'react-reveal/Roll';
+import Fade from 'react-reveal/Fade';
 
 const Degree = () => {
   return (
     <div>
         <h1 className='text-bold text-4xl text-slate-800 text-center'>Education and Degrees</h1>
         <div className='flex my-10'>
-            <div>
+            <Roll><div>
                 <img className='w-full rounded-full shadow-md'
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxzRuV9EP0mgOhGsTf8gshK_3YK-7zo6djnw&usqp=CAU"/>
-            </div>
-            <div className='shadow-lg rounded-xl w-full ml-7'>
+            </div></Roll>
+            <Fade right><div className='shadow-lg rounded-xl w-full ml-7'>
             <div className='w-full px-5 bg-orange-300 py-4 rounded-t-lg'>
                 <div className='text-bold flex justify-between'>
                     <h1 className='text-2xl py-2'>Bachelor of Technology</h1>
@@ -22,16 +24,16 @@ const Degree = () => {
                     <p>⚡ Won few coding contest hosted by the Tech Club of College, and will win more</p>
             </div>
             <button className='px-3 py-2 bg-orange-300 rounded-lg mb-2 float-right mr-2'>Visit Website</button>
-            </div>
+            </div></Fade>
         </div>
 
 
         <div className='flex my-10'>
-            <div>
+            <Roll><div>
                 <img className='w-full rounded-full shadow-md'
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOFSF-AA7A5LvLs7efMcJan0N6zSkv2ftrFg&usqp=CAU"/>
-            </div>
-            <div className='shadow-lg rounded-xl w-full ml-7'>
+            </div></Roll>
+            <Fade><div className='shadow-lg rounded-xl w-full ml-7'>
             <div className='w-full px-5 bg-orange-300 py-4 rounded-t-lg'>
                 <div className='text-bold flex justify-between'>
                     <h1 className='text-2xl py-2'>Intermediate School</h1>
@@ -44,17 +46,17 @@ const Degree = () => {
                     <p>⚡ I was quite good in Computer Science and had good interest in it and got 98% in Computer Science.</p>
             </div>
             <button className='px-3 py-2 bg-orange-300 rounded-lg mb-2 float-right mr-2'>Visit Website</button>
-            </div>
+            </div></Fade>
         </div>
 
 
 
         <div className='flex my-10'>
-            <div>
+            <Roll><div>
                 <img className='w-full rounded-full shadow-md'
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOFSF-AA7A5LvLs7efMcJan0N6zSkv2ftrFg&usqp=CAU"/>
-            </div>
-            <div className='shadow-lg rounded-xl w-full ml-7'>
+            </div></Roll>
+            <Fade><div className='shadow-lg rounded-xl w-full ml-7'>
             <div className='w-full px-5 bg-orange-300 py-4 rounded-t-lg'>
                 <div className='text-bold flex justify-between'>
                     <h1 className='text-2xl py-2'>High School</h1>
@@ -68,7 +70,7 @@ const Degree = () => {
                     <p>⚡ I was good in Mathematics and scored 97% in Maths.</p>
             </div>
             <button className='px-3 py-2 bg-orange-300 rounded-lg mb-2 float-right mr-2'>Visit Website</button>
-            </div>
+            </div></Fade>
         </div>
     </div>
   )

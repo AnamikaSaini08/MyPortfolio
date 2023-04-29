@@ -1,10 +1,11 @@
 import React from "react";
 import Degree from "./Degree";
 import Certificates from "./Certificates";
+import Slide from 'react-reveal/Slide';
 
 const Education = () => {
   return (
-    <div>
+    <Slide bottom><div>
       <div className="flex my-32">
         <div className="w-1/2">
           <img
@@ -50,7 +51,7 @@ const Education = () => {
       </div>
       <Degree />
       <Certificates />
-    </div>
+    </div></Slide>
   );
 };
 

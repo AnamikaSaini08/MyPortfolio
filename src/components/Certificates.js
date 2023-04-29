@@ -1,12 +1,13 @@
 import React from "react";
 import CertificateCard from "./CertificateCard";
+import Zoom from 'react-reveal/Zoom';
 
 const Certificates = () => {
   return (
     <div className="my-36">
      <h1 className="text-4xl text-bold text-center text-slate-800">Certifications</h1>
 
-     <div className="flex mt-10 flex-wrap ml-40 sm:ml-0 ">
+     <Zoom><div className="flex mt-10 flex-wrap ml-40 sm:ml-0 ">
      <CertificateCard
         title="Problem Solving Basic"
         platform="Hackerrank"
@@ -22,7 +23,7 @@ const Certificates = () => {
         platform="Hackerrank"
         link="https://www.hackerrank.com/anamika08saini08"
       />
-     </div>
+     </div></Zoom>
     </div>
   );
 };

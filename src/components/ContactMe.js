@@ -1,10 +1,11 @@
 import React from "react";
 import ana from "../images/ana.jpg";
 import ContactDetails from "./ContactDetails";
+import Zoom from 'react-reveal/Zoom';
 
 const ContactMe = () => {
   return (
-    <div>
+    <Zoom>
       <div className="flex my-32">
         <div className="w-1/2">
           <img
@@ -67,7 +68,7 @@ const ContactMe = () => {
         </div>
       </div>
       <ContactDetails />
-    </div>
+    </Zoom>
   );
 };
 

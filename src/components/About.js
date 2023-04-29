@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import ana from '../images/ana.jpg';
+import Fade from 'react-reveal/Fade';
 
 const About = () => {
   const myContent = "An aspiring Web Developer and Competitive Programmer.";
@@ -35,7 +36,7 @@ const About = () => {
   }, [window.innerWidth]);
 
   return (
-    <div className="mt-24 flex pb-20">
+    <Fade bottom><div className="mt-24 flex pb-20">
       <div className="w-1/2">
         <div>
           <h1 className="text-slate-900 text-5xl text-bold bg-blue-dark text-blue-dark">
@@ -97,7 +98,7 @@ const About = () => {
           src={ana} alt="profile" />
         </div>
 
-    </div>
+    </div></Fade>
   );
 };
 

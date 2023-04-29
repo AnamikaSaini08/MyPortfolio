@@ -1,11 +1,12 @@
 import React, { useState } from "react";
 import Accordian from "./Accordian";
+import {Fade , Zoom} from "react-reveal";
 
 const Experience = () => {
   const [isVisible, setIsVisible] = useState(false);
   return (
     <div>
-      <div className="flex my-32">
+      <Fade bottom><div className="flex my-32">
         <div className="w-1/2">
           <img
             className="max-w-m h-80 rounded-md shadow-lg"
@@ -25,7 +26,7 @@ const Experience = () => {
             Developer.
           </p>
         </div>
-      </div>
+      </div></Fade>
       <div>
         <button
           className="p-4 w-full bg-white text-left text-xl"
@@ -39,7 +40,7 @@ const Experience = () => {
           Internships
           <p className="float-right">+</p>
         </button>
-        {isVisible==="Intern" && <div className="bg-white py-2">
+        {isVisible==="Intern" && <Fade><Zoom><div className="bg-white py-2">
           <Accordian
             role="Software Developer Internship - Full Stack"
             company="Hexadecimal Software Pvt Ltd."
@@ -60,7 +61,7 @@ const Experience = () => {
             time="April 2022 - Present"
             location="Noida, Currently Remote"
           />
-        </div>}
+        </div></Zoom></Fade>}
         <hr />
 
         <button className="p-4 w-full bg-white text-left text-xl"
@@ -73,7 +74,7 @@ const Experience = () => {
           Volunteerships
           <p className="float-right">+</p>
         </button>
-        {isVisible === "Volunteer" && <div className="bg-white py-2">
+        {isVisible === "Volunteer" && <Fade><Zoom><div className="bg-white py-2">
         <Accordian
             role="Software Developer Internship - Full Stack"
             company="Hexadecimal Software Pvt Ltd."
@@ -84,7 +85,7 @@ const Experience = () => {
             time="April 2022 - Present"
             location="Noida, Currently Remote"
           />
-        </div>}
+        </div></Zoom></Fade>}
         <hr />
         <button className="p-4 w-full bg-white text-left text-xl"
         onClick={()=>{
@@ -96,7 +97,7 @@ const Experience = () => {
           Achievements
           <p className="float-right">+</p>
         </button>
-        {isVisible === "Achievements" && <div className="bg-white py-2">
+        {isVisible === "Achievements" && <Fade><Zoom><div className="bg-white py-2">
         <Accordian
             role="Software Developer Internship - Full Stack"
             company="Hexadecimal Software Pvt Ltd."
@@ -107,7 +108,7 @@ const Experience = () => {
             time="April 2022 - Present"
             location="Noida, Currently Remote"
           />
-        </div>}
+        </div></Zoom></Fade>}
       </div>
     </div>
   );
