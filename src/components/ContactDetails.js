@@ -9,11 +9,11 @@ const ContactDetails = () => {
       </div>
       <div className='ml-36 '>
         <h1 className='text-center text-slate-800 text-3xl text-bold'>Address</h1>
-        <p className='text-xl text-gray-600 text-bold mb-7'>Prayagraj, Uttar Pradesh, India</p>
+        <p className='text-xl text-gray-800 text-bold mb-7'>Prayagraj, Uttar Pradesh, India</p>
         <h1 className='text-center text-slate-800 text-3xl text-bold'>Email</h1>
-        <p className='text-xl text-gray-600 text-bold mb-7'>anamika08saini08@gmail.com</p>
+        <p className='text-xl text-gray-800 text-bold mb-7'>anamika08saini08@gmail.com</p>
         <h1 className='text-center text-slate-800 text-3xl text-bold'>Contact Number</h1>
-        <p className='text-center text-xl text-gray-600 text-bold'>+91-6388031881</p>
+        <p className='text-center text-xl text-gray-800 text-bold'>+91-6388031881</p>
       </div>
     </div>
   )

@@ -14,7 +14,7 @@ const MyWork = () => {
           src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTjLsYYEMRcJA1Mh9vCCoej4goNZZcb2Z-MFTSFD74gQrcT2jTY"
           alt="photo"
         /></Fade>
-        <Fade right><div className="ml-52">
+        <div className="ml-52"><Fade right>
           <h1 className="text-4xl text-slate-900 ">Web Development</h1>
           <div className="flex mt-8 mb-16 sm:ml-28">
             <img
@@ -34,22 +34,22 @@ const MyWork = () => {
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT66S8R5hDm_tPpl8bt0vDe-tEWRlPTX8gTTxJYVO3Wpg&usqp=CAU&ec=48665701"
             />
           </div>
-          <p className="text-lg text-gray-700 my-4 font-sans">
+          <p className="text-lg text-gray-800 my-4 font-sans">
             Implementing front-end frameworks and libraries such as React or
             Angular to streamline development and enhance the performance and
             usability of web applications.
           </p>
-          <p className="text-lg text-gray-700 font-sans my-4">
+          <p className="text-lg text-gray-800 font-sans my-4">
             Creating and managing databases, server-side logic, and APIs using
             technologies in Node.js to handle data processing and server-side
             interactions.
           </p>
-          <p className="text-lg text-gray-700 font-sans my-4">
+          <p className="text-lg text-gray-800 font-sans my-4">
             Conducting testing and debugging to identify and fix issues,
             ensuring the stability and functionality of web applications across
             different browsers, devices, and operating systems.
           </p>
-        </div></Fade>
+          </Fade></div>
       </div>
       <div className="flex mt-20">
         <Fade left><img
@@ -57,7 +57,7 @@ const MyWork = () => {
           src="data:image/png;base64,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"
           alt="photo"
         /></Fade>
-        <Fade right><div className="ml-52">
+       <div className="ml-52"> <Fade right>
           <h1 className="text-4xl text-slate-900 ">Competative Programming</h1>
           <div className="flex mt-8 mb-16 ml-28">
             <img
@@ -73,22 +73,22 @@ const MyWork = () => {
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT66S8R5hDm_tPpl8bt0vDe-tEWRlPTX8gTTxJYVO3Wpg&usqp=CAU&ec=48665701"
             />
           </div>
-          <p className="text-lg text-gray-700 my-4 font-sans">
+          <p className="text-lg text-gray-800 my-4 font-sans">
             Strong problem-solving skills demonstrated through participation in
             competitive programming contests, where I analyzed complex problems
             and developed efficient algorithms and data structures to achieve
             optimal solutions.
           </p>
-          <p className="text-lg text-gray-700 font-sans my-4">
+          <p className="text-lg text-gray-800 font-sans my-4">
             Secured Global Rank 721 in national-level competitive programming
             contests at codechef, showcasing my ability to compete at a high
             level and consistently deliver competitive solutions.
           </p>
-          <p className="text-lg text-gray-700 font-sans my-4">
+          <p className="text-lg text-gray-800 font-sans my-4">
             Proficient in programming languages such as C,C++,Java and
             Javascript.
           </p>
-        </div></Fade>
+          </Fade></div>
       </div>
     </div>
   );

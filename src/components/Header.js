@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 
 const Header = () => {
   return (
-    <div className='max-w-full flex justify-between pt-10 h-30 font-serif text-gray-700'>
+    <div className='max-w-full flex justify-between pt-10 h-30 font-serif text-slate-900 text-lg'>
     <div>
         <h1> {'<'} Anamika Saini {'/>'} </h1>
     </div>

@@ -1,12 +1,12 @@
 import React from "react";
 import Degree from "./Degree";
 import Certificates from "./Certificates";
-import Slide from 'react-reveal/Slide';
+import Fade from 'react-reveal/Fade';
 
 const Education = () => {
   return (
-    <Slide bottom><div>
-      <div className="flex my-32">
+    <div>
+      <Fade bottom><div className="flex my-32 max-w-full">
         <div className="w-1/2">
           <img
             className="h-80 rounded-md shadow-lg"
@@ -48,10 +48,10 @@ const Education = () => {
             </a>
           </div>
         </div>
-      </div>
+      </div></Fade>
       <Degree />
       <Certificates />
-    </div></Slide>
+      </div>
   );
 };
 

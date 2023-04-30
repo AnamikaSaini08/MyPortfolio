@@ -45,7 +45,7 @@ function App() {
 
   return (
     <div className="relative">
-    <div className='bg-gray-200 absolute  px-20 sm:px-5'>
+    <div className='bg-gradient-to-r from-purple-500 to-pink-500 absolute px-20'>
      <RouterProvider router = {appRouter}/>
     </div>
     </div>
