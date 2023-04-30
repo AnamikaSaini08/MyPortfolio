@@ -61,7 +61,7 @@ const Projects = () => {
           desc="This is an online compiler that can compile and run C\C++\Java\Python And 
           JavaScipt Program which is implemented using an API."
           date="2022-07-18"
-          runlink="https://github.com/AnamikaSaini08/Online-Compiler"
+          runlink="https://online-compiler-cq.netlify.app/"
           gitlink ="https://github.com/AnamikaSaini08/Online-Compiler"
         />
          <ProjectCard 
