@@ -5,10 +5,11 @@ import {Fade , Zoom} from "react-reveal";
 const Experience = () => {
   const [isVisible, setIsVisible] = useState(false);
   return (
-    <div>
-      <Fade bottom><div className="flex my-32 ">
+    <div className="pb-[59rem]">
+      <div className="flex my-32"><Fade bottom>
         <div className="w-1/2">
           <img
+            alt="expImg"
             className="max-w-m h-80 rounded-md shadow-lg"
             src="https://media.istockphoto.com/id/1427923620/photo/business-pie-chart-bar-sign-on-dark-background-3d-render-concept-for.jpg?s=612x612&w=0&k=20&c=0Oiiz-GZmuAOvvdnHbSG2T_kkr2oWMRuW_keDlcaC0g="
           />
@@ -26,7 +27,7 @@ const Experience = () => {
             Developer.
           </p>
         </div>
-      </div></Fade>
+      </Fade></div>
       <div>
         <button
           className="p-4 w-full bg-pink-100 text-left text-xl"

@@ -1,6 +1,6 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
-import { Fade,Zoom } from "react-reveal";
+import { Fade} from "react-reveal";
 
 const Projects = () => {
   return (
@@ -8,6 +8,7 @@ const Projects = () => {
       <Fade bottom><div className="flex my-32">
           <img
             className="rounded-md shadow-lg max-w-md"
+            alt="project"
             src="https://media.istockphoto.com/id/950986656/photo/business-finance-accounting-contract-advisor-investment-consulting-marketing-plan-for-the.jpg?s=612x612&w=0&k=20&c=U-y6cADCby4QwENFptPrVcK_MplesqZmnDxUMMkJZvM="
           />
 
@@ -26,7 +27,8 @@ const Projects = () => {
       </div></Fade>
 
       <div className="flex flex-wrap justify-around">
-        <ProjectCard 
+       
+      <ProjectCard 
          title="Youtube_Clone"
           desc="This is a YouTube clone built using React, Redux, Node.js, and the YouTube Data API. "
           date="2023-04-5"

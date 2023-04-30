@@ -36,7 +36,7 @@ const About = () => {
   }, [window.innerWidth]);
 
   return (
-    <div className="mt-20 flex pb-20"><Fade bottom>
+    <div className="mt-20 flex pb-20 max-w-full"><Fade bottom>
       <div className="w-1/2">
         <div>
           <h1 className="text-slate-900 text-5xl text-bold bg-blue-dark text-blue-dark">
@@ -95,7 +95,7 @@ const About = () => {
         {buttonText}
       </button>
       </div>
-      <div className="ml-56 w-1/2">
+      <div className="ml-56">
           <img 
           className="w-80 shadow-lg rounded-md transform transition-transform animate-spin-slow"
           src={anamika} alt="profile" />

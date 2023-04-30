@@ -5,8 +5,8 @@ import Fade from 'react-reveal/Fade';
 
 const Education = () => {
   return (
-    <div>
-      <Fade bottom><div className="flex my-32 max-w-full">
+    <div className="max-w-full overflow-x-hidden">
+      <Fade bottom><div className="flex my-32">
         <div className="w-1/2">
           <img
             className="h-80 rounded-md shadow-lg"
@@ -14,7 +14,7 @@ const Education = () => {
           />
         </div>
 
-        <div className="w-3/2">
+        <div className="">
           <h1 className="text-center text-5xl text-bold text-slate-800 font-sans">
             Education
           </h1>

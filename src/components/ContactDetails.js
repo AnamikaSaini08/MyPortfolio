@@ -2,7 +2,7 @@ import React from 'react'
 
 const ContactDetails = () => {
   return (
-    <div className='flex mt-20'>
+    <div className='flex mt-20 h-screen'>
       <div className='w-1/2'>
       <img className='rounded-lg shadow-lg '
       src="https://media.istockphoto.com/id/1311934969/photo/contact-us.jpg?b=1&s=170667a&w=0&k=20&c=2sJEN1Hhg6heUi1ZxKs6pJDwcyLYXPc4pUGd3hEjOjE="/>

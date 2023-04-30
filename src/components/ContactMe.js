@@ -64,7 +64,10 @@ const ContactMe = () => {
               </a>
           </div>
           <div className="flex justify-center mt-12">
-            <button className=" bg-black text-white px-7 py-3  rounded-md font-sans hover:bg-slate-200 hover:text-gray-600 ease-in duration-200 hover:border-2 hover:border-gray-600 ">
+            <button onClick={()=>{
+              window.open("https://drive.google.com/file/d/1qiAOlfLR-Or17b7kqcBE6Rc0EL8AdmoI/view?usp=drivesdk","_blank");
+            }}
+            className=" bg-black text-white px-7 py-3  rounded-md font-sans hover:bg-slate-200 hover:text-gray-600 ease-in duration-200 hover:border-2 hover:border-gray-600 ">
               See My Resume
             </button>
           </div>
